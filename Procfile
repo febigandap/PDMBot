@@ -1,1 +1,1 @@
-web: gunicorn PDMbot:app
+web: gunicorn pdmrules:app
