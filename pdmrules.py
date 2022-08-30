@@ -4,7 +4,7 @@ from flask import Flask, render_template, request
 
 pairs = [
 ### Skenario Sapaan ###
-['Nama saya (.*) saya berasal dari (.*)', ['Hallo %1 dari %2 saya PDMBot']],
+['Nama saya (.*) saya berasal dari (.*)', ['Hallo %1 dari %2 saya PDMBot, ada yang bisa saya bantu?']],
 #1
     ['(start|mulai|perkenalan|intro)',
     ['PDMbot menyediakan informasi terkait: 1. Profil 2.Pendaftaran pegawai 3.Donasi 4.Penelitian 5.Struktur Kepengurusan 6.Umum ']],
